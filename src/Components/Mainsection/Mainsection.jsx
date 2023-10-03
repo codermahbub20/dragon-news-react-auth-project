@@ -7,7 +7,7 @@ const Mainsection = () => {
 
             <div className="grid  gap-4 mt-4 grid-cols-4">
 
-                <div className="border">
+                <div >
                     <Leftside></Leftside>
                 </div>
                 <div className="col-span-2 border">
