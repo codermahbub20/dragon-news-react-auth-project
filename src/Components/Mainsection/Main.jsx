@@ -13,7 +13,7 @@ const Main = () => {
         <div>
            <h1 className="text-2xl font-medium">Dragon News Home</h1>
            {
-            news.map(news => <News key={news.id} news={news}></News>)
+            news.map(news => <News key={news._id} news={news}></News>)
            }
         </div>
     );

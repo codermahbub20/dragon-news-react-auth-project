@@ -14,7 +14,7 @@ const Mainsection = () => {
                 <div className="col-span-2 border">
                     <Main></Main>
                 </div>
-                <div >
+                <div  >
                     <Rightsidenav></Rightsidenav>
                 </div>
 
