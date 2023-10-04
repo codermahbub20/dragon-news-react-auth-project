@@ -1,4 +1,5 @@
 import Leftside from "./LeftSide/Leftside";
+import Main from "./Main";
 import Rightsidenav from "./RightsideNav/Rightsidenav";
 
 const Mainsection = () => {
@@ -11,7 +12,7 @@ const Mainsection = () => {
                     <Leftside></Leftside>
                 </div>
                 <div className="col-span-2 border">
-                    main
+                    <Main></Main>
                 </div>
                 <div >
                     <Rightsidenav></Rightsidenav>
